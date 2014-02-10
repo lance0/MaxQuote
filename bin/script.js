@@ -36,10 +36,7 @@
         lowest24 = lowest_24h;
         volumebase24 = volume_base_24h;
         maxprice = handle_change(maxprice, currentask, "#max-price");
-        btce = handle_change(, "#max24vol");
-        stamp = handle_change(stamp, stamp_t, "#bitstamp-price");
-        avg = handle_change(avg, avg_t, "#price");
-       
+                      
         $("#max-price").html(mtgox.toFixed(2));
       
         return $("#content").removeClass("hidden");
