@@ -30,7 +30,7 @@
         lastbuy = data.MAX/BTC.rates.last;
         currentask = data.MAX/BTC.current_ask;
         currentaskvolume = data.MAX/BTC.current_asl_volume;
-        currentbid = data.MAX/BTC.current_bit;
+        currentbid = data.MAX/BTC.current_bid;
         currentbidvolume = current_bid_volume;
         highest24 = highest_24h;
         lowest24 = lowest_24h;
