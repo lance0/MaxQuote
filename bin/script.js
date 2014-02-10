@@ -18,7 +18,7 @@ handle_change = function(orig, new_p, location) {
 update = function() {
   var maxprice;
   return $.ajax({
-    url: "https://api.bitcoinaverage.com/exchanges/USD",
+    url: "https://cryptorush.in/api.php?get=market&m=max&b=btc&json=true",
     dataType: "json",
     cache: false,
     success: function(data) {
